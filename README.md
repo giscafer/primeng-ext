@@ -29,3 +29,13 @@ primeng component extension
 ![](./autocomplete/autocomplete.png)
 
 
+
+
+## [License](./LICENSE)
+
+---
+
+> [giscafer.com](http://giscafer.com) &nbsp;&middot;&nbsp;
+> GitHub [@giscafer](https://github.com/giscafer) &nbsp;&middot;&nbsp;
+> Weibo [@Nickbing Lao](https://weibo.com/laohoubin) &nbsp;&middot;&nbsp;
+> Twitter [@nickbinglao](https://twitter.com/nickbinglao)
