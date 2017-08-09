@@ -108,7 +108,7 @@ export interface LocaleSettings {
                         </tr>
                     </tbody>
                     </table>
-                 <table class="ui-time-panel" (click)="chooseHours($event,opHour,'h')" *ngIf="showTime"> 
+                 <table class="ui-time-panel" (click)="chooseHours($event,1)" *ngIf="showTime"> 
                             <thead>
                                 <tr colspan="5"  class="bgc-color"> <th>小时</th></tr>
                             </thead>
@@ -143,7 +143,7 @@ export interface LocaleSettings {
                                 <td [ngClass]="{'selected':currentHour==23}">23</td>
                                 </tr>
                     </table>
-                    <table class="ui-time-panel ui-munitime-panel" (click)="chooseHours($event,opMinutes,'m')" *ngIf="showTime"> 
+                    <table class="ui-time-panel ui-munitime-panel" (click)="chooseHours($event,2)" *ngIf="showTime"> 
                             <thead>
                                 <tr colspan="3" class="bgc-color"> <th>分钟</th></tr>
                             </thead>
@@ -872,19 +872,18 @@ export class Calendar implements AfterViewInit,AfterViewChecked,OnInit,OnDestroy
      * 时间选择面板
      * @param type
      */
-    chooseHours($event, op, type) {
+    chooseHours($event, type) {
         let td = $event.srcElement || $event.target;
         if (td.nodeName !== 'TD') {
             return;
         }
-        if (type === 'h') {
+        if (type === 1) {
             this.currentHour = Number(td.innerText);
         } else {
             this.currentMinute = Number(td.innerText);
         }
         this.updateTime();
         $event.stopPropagation();
-        op.hide();
     }
 
 
