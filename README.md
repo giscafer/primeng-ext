@@ -29,6 +29,20 @@ primeng component extension
 ![](./autocomplete/autocomplete.png)
 
 
+### Tabview
+
+lazyLoad component without router
+
+```html
+
+<ui-tabview #tabview [tabs]="tabs" [activeIndex]="tabActiveIndex"
+                    (tabClose)="handlerTabClose($event)"></ui-tabview>
+                    
+```
+
+
+![](./tabview/tabview.png)
+
 
 
 ## [License](./LICENSE)

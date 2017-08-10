@@ -1,0 +1,8 @@
+<!--ui-tabview-->
+<div class="tab-view">
+    <p-tabView #tabRef  [activeIndex]="activeIndex" (onChange)="handleChange($event)" (onClose)="handleClose($event)">
+        <p-tabPanel *ngFor="let tab of tabs;let i=index;" header="{{tab.data.name}}" selected="tab.data.selected"  [closable]="true" (click)="tabPanelClick(i)">
+            <ui-tab-panel [tabItem]="tab"></ui-tab-panel>
+        </p-tabPanel>
+    </p-tabView>
+</div>
