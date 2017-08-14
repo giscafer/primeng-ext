@@ -43,6 +43,8 @@ lazyLoad component without router
 
 ![](./tabview/tabview.png)
 
+![](./tabview/tabview1.gif)
+
 
 
 ## [License](./LICENSE)
