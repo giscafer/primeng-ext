@@ -2,10 +2,10 @@
 primeng component extension
 
 ## Table of Contents
-* **[1. Calendar](#1---calendar)**
-* **[2. Autocomplete](#1---autocomplete)**
-* **[3. Tabview](#1---tabview)**
-* **[4. Tree](#1---tree)**
+* **[1. Calendar](#---calendar)**
+* **[2. Autocomplete](#---autocomplete)**
+* **[3. Tabview](#---tabview)**
+* **[4. Tree](#---tree)**
 
 ---
 
@@ -25,7 +25,7 @@ primeng component extension
 -  hasChildren="hasChildren"
 
 ```html
-  <p-autoComplete #pac name="text"
+  <p-autoComplete name="text"
                     [(ngModel)]="value"
                     hasChildren="hasChildren"
                     [suggestions]="options"
