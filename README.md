@@ -2,10 +2,10 @@
 primeng component extension
 
 ## Table of Contents
-* **[1. Calendar](#---calendar)**
-* **[2. Autocomplete](#---autocomplete)**
-* **[3. Tabview](#---tabview)**
-* **[4. Tree](#---tree)**
+* **[1. Calendar](#calendar)**
+* **[2. Autocomplete](#autocomplete)**
+* **[3. Tabview](#tabview)**
+* **[4. Tree](#tree)**
 
 ---
 
